@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="style.css "> 
+    <!-- <style>
+        .box {
+            border: 2px solid;
+            width: 300px;
+            height: 350px;
+            margin: 20px auto;
+            display:inline;
+            display: inline;
+        }
+
+        .main-container {
+            border: 2px solid red;
+            display: flex;
+            gap: 20px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+             ======================= FLEX PROPERTY START ========================================================
+
+            display: flex; */
+            flex-direction: column;
+            justify-content: start;
+            justify-content: center;
+            justify-content: end;
+            justify-content: space-around;
+            justify-content: space-between;
+            align-items: center;
+             gap: 30px;
+            height: 100vh;
+            ustify-content: center; 
+        flex-wrap: wrap; 
+
+            ==================================== FLEX PROPERTY END ================================================
+        }
+
+        .container{
+            border: 2px solid blue;
+            width: 400px;
+        }
+
+        .btn-container {
+            border: 2px solid green; 
+            width: 90%;
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin: 10px 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="box">my new div  </div>
+        <div class="box">my new div  </div>
+        <div class="box">my new div  </div>
+        <div class="box">my new div  </div> 
+        <p class="box">text p</p>
+        <span class="box">this is span</span>
+        <span class="box">this is span</span>
+        <span class="box">this is span</span>
+        <span class="box">this is span</span>
+        <div class="container">
+            <div class="btn-container">
+                <button>+</button>
+                <button>-</button>
+                <button>*</button>
+                <button>%</button>
+            </div>
+
+            <div class="btn-container">
+                <button>+</button>
+                <button>- </button>
+                <button>*</button>
+                <button>%</button>
+            </div>
+
+            <div class="btn-container">
+                <button>+</button>
+                <button>- </button>
+                <button>*</button>
+                <button>%</button>
+            </div>
+        </div>
+    </div> -->
+</head>
+<body>  
+    <div class="main-container">
+        <div class="container">
+            <div class="input-text">
+                <div class="input-filed-box">
+                    <input type="text" id="display" readonly>
+                </div>
+                <div class="input-filed-box">
+                    <input type="text" id="display1" readonly>
+                </div>
+            </div> 
+            <div class="s">
+                <div class="btn">
+                    <button onclick="clearDisplay()">Cl</button>
+                    <button id="delete" onclick="deleteText('DE')">DE</button>
+                    <button onclick="clearDisplay('%')">%</button>
+                    <button onclick="appendToDisplay('/')">/</button>
+                </div>
+                <div class="btn">
+                    <button onclick="appendToDisplay('9')">9</button>
+                    <button onclick="appendToDisplay('8')">8</button>
+                    <button onclick="appendToDisplay('7')">7</button>
+                    <button onclick="appendToDisplay('*')">*</button>
+                </div>
+                <div class="btn">
+                    <button onclick="appendToDisplay('6')">6</button>
+                    <button onclick="appendToDisplay('5')">5</button>
+                    <button onclick="appendToDisplay('4')">4</button>
+                    <button onclick="appendToDisplay('+')">+</button>
+                </div>
+                <div class="btn">
+                    <button onclick="appendToDisplay('3')">3</button>
+                    <button onclick="appendToDisplay('2')">2</button>
+                    <button onclick="appendToDisplay('1')">1</button>
+                    <button onclick="appendToDisplay('-')">-</button>
+                    <!-- <button onclick="calculate()">=</button>  -->
+                    
+                </div>
+                <div class="btn">
+                    <button onclick="appendToDisplay('0')">0</button>
+                    <button onclick="appendToDisplay('.')">.</button>
+                    <button onclick="calculate()">=</button>
+                </div>
+                
+            </div>
+        </div>
+    </div> 
+</body>
+<script src="./script.js"></script>
+
+</html>

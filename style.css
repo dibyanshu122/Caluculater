@@ -1,0 +1,138 @@
+button {
+    /* border: 2px solid; */
+    /* width: 300px;
+    height: 35px; */
+    margin: 10px 10px;
+    width: 54px;
+    padding: 10px;
+    box-shadow: 0px 0px 5px 3px gray;
+    font-size: medium;
+    background-color: #10072c;
+    color: white;
+   
+
+}
+.main-container {
+    /* border: 2px solid red; */
+    display: flex;
+    /* gap: 20px; */
+    /* flex-direction: column;  */
+    align-items: center;
+    justify-content: center;
+    
+   
+   
+    
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width:40%; */
+    justify-content: center ;
+    /* border:2px solid green; */
+    border:2px solid;
+    background-color: #10072c;
+   
+   
+    
+}
+.btn{
+    /* border:2px solid blue; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+     
+   
+      /* rgb(243,121,141) 
+      #97b1ff */
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid;
+    background-color: #10072c;
+    box-shadow: 0px 0px 5px 3px gray;
+}
+
+.input-text{
+    height: 100px;
+    border: 4px solid ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #10072c;
+  
+    /* border-bottom: 100px  blue; */
+}
+
+.input-text input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background-color: #10072c;
+    color: white;
+
+}
+
+.input-filed-box{
+    width: 90%;
+    margin: 6px;
+    height: 30px;
+
+}
+button:hover{
+    background-color: #97b1ff  ;
+    
+    
+}
+
+
+/* .main-container {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    border: 2px solid; 
+}
+.input-text{
+    padding: 4px;
+    gap: 4px;
+    display: flex;
+    flex-direction: column;
+}
+#display {
+    /* width: 100%;
+    margin-bottom: 10px;
+    padding-left: 2px ;
+    font-size: 20px; */
+/* } */
+
+/* .btn { */
+    /* width: 30px;
+    height: 45px;
+    margin: 8px;
+    font-size: 18px
+    cursor: pointer;
+    size: 55px; */
+            /* space-around :  
+            -moz-column-gap: 40px;
+            column-gap: 40px;
+            row-gap: 30px;
+            padding: 26px;
+            font-size: 12px; */
+/* }
+#delete{
+
+}
+     */
+
+
+
